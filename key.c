@@ -37,7 +37,7 @@ void KEY_Init(void) //IO初始化
 //mode:0,不支持连续按;1,支持连续按;
 //0，没有任何按键按下
 //1，KEY0按下
-//2，KEY1按下
+//2，KEY1按下S
 //3，KEY2按下 
 //4，KEY3按下 WK_UP
 //注意此函数有响应优先级,KEY0>KEY1>KEY2>KEY3!!
@@ -56,3 +56,4 @@ u8 KEY_Scan(u8 mode)
 	}else if(KEY0==1&&KEY1==1&&KEY2==1&&WK_UP==0)key_up=1; 	    
  	return 0;// 无按键按下
 }
+jlkjasdkl
