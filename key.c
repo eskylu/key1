@@ -57,3 +57,4 @@ u8 KEY_Scan(u8 mode)
  	return 0;// 无按键按下
 }
 jlkjasdkl
+122344523
